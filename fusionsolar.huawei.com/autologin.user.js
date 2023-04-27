@@ -80,10 +80,11 @@ for (var J = cookieList.length - 1;   J >= 0;  --J) {
 }
 }
 
-
 setTimeout(
   function(){
+    if (isNullOrEmpty(username) || isNullOrEmpty(password)){ alert("Input username and password."); return; }
     nuke_cookies();
+
 
     document.getElementById('username').value=username;
     document.getElementById('username').change ? document.getElementById('username').change():{};
