@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Autologin for fusionsolar.huawei.com
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/mhidro/userscripts/tree/master/fusionsolar.huawei.com
 // @match       https://eu5.fusionsolar.huawei.com/unisso/login.action*
 // @grant       GM_getValue
 // @grant       GM_setValue
